@@ -10,12 +10,12 @@
 <Pane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="461.0" prefWidth="756.0" style="-fx-background-color: #EEEEBC;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.EclipseGUI">
    <children>
       <Circle fx:id="sun" fill="YELLOW" layoutX="400.0" layoutY="167.0" radius="58.0" stroke="TRANSPARENT" strokeType="INSIDE" />
-      <Button layoutX="273.0" layoutY="287.0" mnemonicParsing="false" onAction="#moveMoon" style="-fx-background-color: #ffffff;" text="Move">
+      <Button fx:id="move" layoutX="273.0" layoutY="287.0" mnemonicParsing="false" onAction="#moveMoon" style="-fx-background-color: #ffffff;" text="Move">
          <font>
             <Font size="18.0" />
          </font>
       </Button>
-      <Button layoutX="458.0" layoutY="287.0" mnemonicParsing="false" onAction="#stopMoon" style="-fx-background-color: #ffffff;" text="Stop">
+      <Button fx:id="stop" layoutX="458.0" layoutY="287.0" mnemonicParsing="false" onAction="#stopMoon" style="-fx-background-color: #ffffff;" text="Stop">
          <font>
             <Font size="18.0" />
          </font>
