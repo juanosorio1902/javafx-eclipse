@@ -11,8 +11,11 @@ You must have a current version of Java installed, JDK 1.8 and a current version
 Download links:
 
 https://www.java.com/
+
 https://www.oracle.com/co/java/technologies/javase-downloads.html
+
 https://www.eclipse.org/downloads/
+
 https://gluonhq.com/products/scene-builder/
 
 # Built with 🛠️
